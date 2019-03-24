@@ -1,0 +1,52 @@
+
+li {
+    list-style: none;
+}
+input[type="text"] {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #78cce2;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#input {
+    display: flex;
+}
+#add {
+    height: 40px;
+}
+
+#delete,
+#complete {
+    float: right;
+    margin-top: 10px;
+}
+#cont {
+    float: left;
+}
+
+ul {
+    padding: 0;
+}
+#complete:hover {
+    background-color: #90EE90;
+    padding: 2px 5px 0px 5px;
+}
+#complete {
+    padding: 2px 5px 0px 5px;
+}
+#delete:hover {
+    background-color: #FF3366;
+    padding: 2px 5px 0px 5px;
+}
+#delete {
+    padding: 2px 5px 0px 5px;
+}
+.complete{
+    text-decoration: line-through;
+}

@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+
+*{
+	margin:0;
+}
+
+html, body {
+	background-image: linear-gradient(lightblue, silver );
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	height:100%;
+  	font-size: 100%;
+}
+
+#container {
+	width:75%;
+	min-height: 100%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(white, white);
+}
